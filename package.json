@@ -5,7 +5,7 @@
   "scripts": {
     "ng": "ng",
     "build:prod": "./node_modules/.bin/ng build --prod --aot=false",
-    "start": "ng serve",
+    "start": "ng serve --proxy-config proxy.conf.json",
     "build": "ng test --watch=false --code-coverage && npm run build:pack",
     "build:pack": "ng-packagr -p src/app/ng-package.json",
     "build:copy": "cpr src/assets dist/lib/assets",
