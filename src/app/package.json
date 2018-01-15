@@ -1,0 +1,14 @@
+{
+  "name": "gorkhas-ngx-keycloak-security",
+  "version": "0.0.0-alpha.1",
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": "^5.2.0",
+    "@angular/core": "^5.2.0",
+    "@angular/http": "^5.2.0",
+    "ngx-logger": "^1.1.2"
+  },
+  "dependencies": {
+    "keycloak-angular": "^1.1.1"
+  }
+}

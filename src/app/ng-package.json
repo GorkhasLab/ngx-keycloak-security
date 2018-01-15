@@ -1,0 +1,13 @@
+{
+  "$schema": "./node_modules/ng-packagr/ng-package.schema.json",
+  "name": "gorkhas-ngx-keycloak-security",
+  "version":"0.0.0-alpha.1",
+  "dest": "../../target",
+  "lib": {
+    "externals": {
+      "react": "React",
+      "react-dom": "ReactDOM",
+      "keycloak-angular": "KeycloakAngular"
+    }
+  }
+}
